@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 13px;
+    background-image: url(img/bg.jpg);
+    background-size: auto;
+    background-position: center;
+    
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: #000
+}
+
+input[type=text]{
+    border: 1px solid #ddd;
+    padding: 5px
+}
+
+h3 {
+    color: #202021;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    line-height: 13px
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 30px
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.floatright {
+    float: right
+}
+
+.floatleft {
+    float: left
+}
+
+.center {
+    width: 980px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    transition: all 1.3s ease 0s;
+    -moz-transition: all 1.3s ease 0s;
+    -webkit-transition: all 1.3s ease 0s;
+    -o-transition: all 1.3s ease 0s;
+    -ms-transition: all 1.3s ease 0s
+}
+
+div {
+    overflow: hidden
+}
+
+.body_wrapper {
+    background: repeat;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.top_menu {
+    margin-left: 60px;
+    margin-top: 60px;
+    width: 330px
+}
+
+.top_menu ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0
+}
+
+.top_menu ul li {
+    float: left;
+    border-right: 2px solid #000
+}
+
+.top_menu ul li:last-child {
+    border-right: none
+}
+
+.top_menu ul li a {
+    color: #CF0000;
+    display: block;
+    font-size: 12px;
+    padding: 0 11px;
+    line-height: 12px
+}
+
+.top_menu ul li a:hover {
+    text-decoration: underline
+}
+
+.social ul {
+    list-style: none outside none;
+}
+
+.social ul li {
+    float: left;
+    margin-right: 7px
+}
+
+.social ul li a {
+    display: block;
+    padding: 12px 13px
+}
+
+.main_menu_area {
+    overflow: visible;
+    background: #0D0E0F;
+    min-height: 50px
+}
+
+.main_menu_area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.main_menu_area ul li {
+    float: left;
+    position: relative
+}
+
+.main_menu_area ul li a {
+    color: #FFF;
+    display: block;
+    font-family: 'bebasregular';
+    font-size: 15px;
+    padding: 18px 18.7px
+}
+
+.main_menu_area ul li a:hover {
+    background: #CF0000
+}
+
+#nav li ul {
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s
+}
+
+.main_menu_area ul li ul {
+    background: none repeat scroll 0 0 #0D0E0F;
+    top: 100px;
+    position: absolute;
+    width: 215px;
+    z-index: 99999;
+    right: -99999px
+}
+
+.main_menu_area ul li ul li {
+    float: none;
+    position: relative
+}
+
+.main_menu_area ul>li:hover>ul {
+    left: 0px;
+    top: 49px
+}
+
+.main_menu_area ul li ul li a {
+    font-family: arial;
+    font-weight: bold
+}
+
+.main_menu_area ul li ul li ul {
+    background: none repeat scroll 0 0 #0D0E0F;
+    right: 215px;
+    position: absolute;
+    width: 215px;
+    z-index: 99999;
+    right: -99999px
+}
+
+.main_menu_area ul li ul li ul li {
+    float: none
+}
+
+.main_menu_area ul li ul li:hover ul {
+    left: 215px;
+    top: 0px
+}
+
+.main_menu_area ul li ul li ul li a {
+    font-family: arial;
+    font-weight: bold
+}
+
+.content_area {
+    margin-top: 25px
+}
+
+.main_content {
+    width: 670px
+}
+
+.left_coloum {
+    width: 450px
+}
+
+.single_left_coloum {
+    margin-left: 10px;
+    width: 800px
+}
+
+.footer_top_area {
+    border-bottom: 1px dotted #000;
+    border-top: 1px dotted #000;
+    padding: 20px 0;
+    width: 940px
+}
+
+.footer_bottom_area {
+    margin-top: 15px
+}
+
+.footer_menu {
+    margin-bottom: 20px
+}
+
+.footer_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.footer_menu ul li {
+    border-right: 1px solid #000;
+    display: inline
+}
+
+.footer_menu ul li:last-child {
+    border-right: none
+}
+
+.footer_menu ul li a {
+    display: inline-block;
+    padding: 0 22px
+}
+
+.copyright_text {
+    line-height: 17px;
+    text-align: center
+}
